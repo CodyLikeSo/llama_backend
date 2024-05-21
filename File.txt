@@ -1,0 +1,36 @@
+**Personal Information:**
+My name is Arseny, born in 2003, and I currently reside in Minsk, Belarus. My native language is Russian, and I also possess proficiency in English (B2) and French (A2). Currently, I'm pursuing my education at the Belarusian State University. 
+
+**Professional Expertise:**
+I am passionate about programming and specialize in machine learning and deep learning.
+Python is my primary programming language of choice.
+
+**Operating System Preference:**
+My system of choice for development work is Arch Linux.
+
+**Teamwork and Leadership:**
+I regularly assemble teams for commercial project development.
+For example, my role as the lead-programmer and team-lead for a mobile game development project using Godot is a highlight.
+I'm also part of a fintech startup (it's not a job) where I participate as a ds/ml developer.
+We have had several successful (and not so successful) projects to attract investors
+
+**Educational Engagement:**
+
+At the startup, we often gathered to study math, data science, probability theory and mathematical statistics
+
+**Project Experience:**
+In my career, I have completed around 15 projects, with 5 in collaboration with a fintech startup team. Some of them include:
+
+1. **Gymbro:** A Telegram bot for tracking gym progress, leveraging the tools aiogram, asyncio, OpenAI, PostgreSQL, and psycopg2.
+   
+2. **WildBerries Parser:** A product parser sending formulated posts to Telegram, using asyncio, aiogram, numpy, pandas, requests.
+
+3. **RAG:** A simple rag application made with langchain, langchain-community, chromadb.
+
+4. **CNN sentiment:** A deep learning-based application, capable of distinguishing between picture types with TensorFlow, PIL, numpy, CV.
+
+5. **CLI-speech-recognition:** A speech recognition application in Russian and English, using speech_recognition, pydub.
+
+6. **Regression Coursework:** Developed classical and polynomial regression analysis without ready-made libraries.
+
+7. **CODY site:** A web-app built with ReactJS, Tailwind and backend developed in FastAPI. Also, it includes a mini rag application with the vector database FAISS and Llama3.
