@@ -40,7 +40,7 @@ from langchain.memory import ChatMessageHistory, ConversationBufferMemory
 
 #     return answer
 
-async def get_text(query):
+def get_text(query):
     embeddings = OllamaEmbeddings(
         model='all-minilm'
     )

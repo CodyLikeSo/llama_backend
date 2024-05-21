@@ -21,5 +21,5 @@ app = FastAPI()
 
 
 @app.get("/llama")
-async def ask(response: str):
-    return await get_text(query=response)
+def ask(response: str):
+    return get_text(query=response)
