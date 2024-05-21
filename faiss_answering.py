@@ -43,30 +43,30 @@ async def get_text(query):
 
 
 
-# def get_text1(query):
-#     embeddings = OllamaEmbeddings(
-#         model='all-minilm'
-#     )
+def get_text1(query):
+    embeddings = OllamaEmbeddings(
+        model='all-minilm'
+    )
 
-#     db = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
-#     model = Ollama(model='llama3',
-#                    temperature=0.1,
-#                    keep_alive=-1,
-#                    mirostat_tau=2.0,
-#                    mirostat_eta=0.9,
-#                 #    top_k=15, 
-#                 #    top_p=0.7, 
-#                 #    repeat_penalty=1.5, 
-#                 #    num_predict=60
+    db = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
+    model = Ollama(model='llama3',
+                   temperature=0.1,
+                   keep_alive=-1,
+                   mirostat_tau=2.0,
+                   mirostat_eta=0.9,
+                #    top_k=15, 
+                #    top_p=0.7, 
+                #    repeat_penalty=1.5, 
+                #    num_predict=60
             
-#                 )
+                )
 
-#     docs = db.similarity_search(query=query, k=6)
+    docs = db.similarity_search(query=query, k=6)
 
-#     answer = model.invoke(f'You are Arseniy. Answer the question strictly - 1-2 sentences. Question: {query}. Find the answer here: {docs}.')
+    answer = model.invoke(f'You are Arseniy. Answer the question strictly - 1-2 sentences. Question: {query}. Find the answer here: {docs}.')
 
-#     return answer
+    return answer
 
 
-# a = get_text1('do you use docker before?')
-# print
+a = get_text1('do you use docker before?')
+print(a)
