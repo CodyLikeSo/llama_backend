@@ -22,4 +22,4 @@ app = FastAPI()
 
 @app.get("/llama")
 async def ask(response: str):
-    return get_text(query=response)
+    return await get_text(query=response)
